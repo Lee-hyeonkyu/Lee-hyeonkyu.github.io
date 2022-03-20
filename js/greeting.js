@@ -14,6 +14,7 @@ function paintInput() {
   input.placeholder = "Please write your name";
   input.type = "text";
   input.className = "name_input";
+  input.required = 1;
   const form = document.createElement("form");
   form.addEventListener("submit", handleSubmit);
   form.appendChild(input);

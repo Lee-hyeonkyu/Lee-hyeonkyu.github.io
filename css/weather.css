@@ -1,0 +1,21 @@
+#weather {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#weather span {
+  font-size: 25px;
+  margin-right: 10px;
+  font-style: italic;
+}
+
+#weather span:first-child::after {
+  content: "℃";
+  margin-left: 5px;
+}
+
+#weather span:last-child {
+  font-size: 15px;
+  font-style: italic;
+}
